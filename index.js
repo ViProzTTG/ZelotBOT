@@ -2,7 +2,7 @@ const Discord = require("discord.js")
 const client = new Discord.Client();
 var prefix = "T!";
 
-client.login("");
+client.login("process.env.BOT_TOKEN");
 
 client.on("message", message =>{
     if(!message.guild) return
