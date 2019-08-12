@@ -2,7 +2,7 @@ const Discord = require("discord.js")
 const client = new Discord.Client();
 var prefix = "T!";
 
-client.login("NjA3NjQ4MjcxMDQ0OTY4NDc4.XUk2ug.czXIFw1SsnTUeDa0x8dBQGYCTh0");
+client.login("");
 
 client.on("message", message =>{
     if(!message.guild) return
